@@ -8,7 +8,7 @@ public class SwordsDance extends StatusMove {
 	}
 
 	protected void applySelfEffects(Pokemon p) {
-		Effect e = new Effect().stat(Stat.ATTACK, stat(Stat.ATTACK)+2);
+		Effect e = new Effect().stat(Stat.ATTACK, (int)p.getStat(Stat.ATTACK)+2);
 		p.addEffect(e);
 	}
 

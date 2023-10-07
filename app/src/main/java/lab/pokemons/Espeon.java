@@ -11,7 +11,7 @@ public class Espeon extends Pokemon {
 		setMove(new ThunderShock(), new LightScreen());
 	}
 
-	public Staryu(java.lang.String name, int level) {
+	public Espeon(java.lang.String name, int level) {
 		super(name, level);
 		setStats(65, 65, 60, 130, 95, 110);
 		setType(Type.PSYCHIC);
