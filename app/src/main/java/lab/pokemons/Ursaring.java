@@ -8,14 +8,14 @@ public class Ursaring extends Pokemon {
 		super();
 		setStats(90, 130, 75, 75, 75, 55);
 		setType(Type.NORMAL);
-		setMove(new ThunderShock(), new LightScreen());
+		setMove(new ThunderShock(), new LightScreen(), new FuryAttack());
 	}
 
 	public Ursaring(java.lang.String name, int level) {
 		super(name, level);
 		setStats(90, 130, 75, 75, 75, 55);
 		setType(Type.NORMAL);
-		setMove(new ThunderShock(), new LightScreen());
+		setMove(new ThunderShock(), new LightScreen(), new FuryAttack());
 	}
 
 	
