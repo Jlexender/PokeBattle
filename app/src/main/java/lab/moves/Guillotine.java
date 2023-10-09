@@ -13,4 +13,8 @@ public class Guillotine extends PhysicalMove {
 			applyOppDamage(p, p.getHP());
 		}
 	}
+
+	protected java.lang.String describe() {
+		return "damages using Guillotine";
+	}
 }

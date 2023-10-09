@@ -17,4 +17,8 @@ public class Synthesis extends StatusMove {
 		Effect e = new Effect().chance(0.7).stat(Stat.ATTACK, 1);
 		p.addEffect(e);
 	}
+
+	protected java.lang.String describe() {
+		return "uses Synthesis";
+	}
 }
