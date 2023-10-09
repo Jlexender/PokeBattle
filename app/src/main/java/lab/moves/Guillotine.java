@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.*;
 
 public class Guillotine extends PhysicalMove {
 	public Guillotine() {
-		super(Type.NORMAL, 100, 30);
+		super(Type.NORMAL, 0, 30);
 	}
 	
 	protected void applyOppEffects(Pokemon p) {
