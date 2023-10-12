@@ -1,7 +1,7 @@
-package lab.pokemons;
+package ru.llexender.se.pokebattle.pokemons;
 
 import ru.ifmo.se.pokemon.*;
-import lab.moves.*;
+import ru.llexender.se.pokebattle.moves.*;
 
 public class Ludicolo extends Pokemon {
 	public Ludicolo() {

@@ -29,11 +29,6 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'lab.Main'
+    mainClass = 'ru.llexender.se.pokebattle.Main'
 }
 
-jar {
-	manifest {
-		attributes('Manifest-Version': '1.0', 'Main-Class': 'lab.Main')
-	}
-}
